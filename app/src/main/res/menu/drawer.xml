@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/customerItem"
+        android:title="@string/customers" />
+    <item
+        android:id="@+id/employeeItem"
+        android:title="@string/employees" />
+    <item
+        android:id="@+id/officeItem"
+        android:title="@string/offices" />
+    <item
+        android:id="@+id/orderItem"
+        android:title="@string/orders" />
+    <item
+        android:id="@+id/paymentItem"
+        android:title="@string/payments" />
+    <item
+        android:id="@+id/productItem"
+        android:title="@string/products" />
+    <item
+        android:id="@+id/productLineItem"
+        android:title="@string/product_lines" />
+    <item
+        android:id="@+id/orderDetailItem"
+        android:title="@string/order_details" />
+</menu>
