@@ -1,5 +1,6 @@
 package com.example.companymsapp.activity;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -7,6 +8,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.companymsapp.R;
@@ -44,6 +47,7 @@ public class OfficeActivity extends AppCompatActivity implements OfficeListAdapd
 
     @Override
     public void onClick(Office office) {
-        Toast.makeText(this, ""+office.getCity(), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, ""+office.toString(), Toast.LENGTH_LONG).show();
     }
+
 }

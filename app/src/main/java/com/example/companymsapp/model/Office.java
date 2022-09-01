@@ -82,4 +82,19 @@ public class Office {
     public void setTerritory(String territory) {
         this.territory = territory;
     }
+
+    @Override
+    public String toString() {
+        return "Office{" +
+                "officeCode=" + officeCode +
+                ", city='" + city + '\'' +
+                ", phone='" + phone + '\'' +
+                ", addressLine1='" + addressLine1 + '\'' +
+                ", addressLine2='" + addressLine2 + '\'' +
+                ", state='" + state + '\'' +
+                ", country='" + country + '\'' +
+                ", postalCode='" + postalCode + '\'' +
+                ", territory='" + territory + '\'' +
+                '}';
+    }
 }

@@ -17,6 +17,7 @@ import java.util.List;
 public class OfficeViewModel extends ViewModel {
     // LiveData MutableLiveData
     private MutableLiveData<List<Office>> offices;
+    private MutableLiveData<Office> selectedOffice = new MutableLiveData<>();
     private MutableLiveData<Boolean> isLoading = new MutableLiveData<>();
 
     private OfficeRepository officeRepository = OfficeRepository.getInstance();
@@ -30,6 +31,10 @@ public class OfficeViewModel extends ViewModel {
     @Override
     protected void onCleared() {
         super.onCleared();
+    }
+
+    public MutableLiveData<Office> getSelectedOffice() {
+        return selectedOffice;
     }
 
     public MutableLiveData<Boolean> getIsLoading() {
