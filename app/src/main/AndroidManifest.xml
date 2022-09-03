@@ -18,16 +18,17 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".OfficeDetailActivity"
+            android:name=".activity.ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.office.OfficeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.office.CreateOfficeActivity"
             android:exported="false" />
         <activity
             android:name=".activity.OfficeActivity"
             android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false"
-            android:label="@string/title_activity_home"
-            android:theme="@style/Theme.CompanymsApp.NoActionBar" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="true">

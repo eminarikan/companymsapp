@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import com.example.companymsapp.apicall.OfficeApi;
+import com.example.companymsapp.model.Message;
 import com.example.companymsapp.model.Office;
 import com.example.companymsapp.tool.RetrofitClientInstance;
 
@@ -45,7 +46,7 @@ public class OfficeRepository {
         return officesListLiveData;
     }
 
-    public MutableLiveData<Office> getById(int id){
+    public MutableLiveData<Office> getById(Long id){
         officeApi.getById(id).enqueue(new Callback<Office>() {
             @Override
             public void onResponse(Call<Office> call, Response<Office> response) {
@@ -58,5 +59,33 @@ public class OfficeRepository {
             }
         });
         return officeLiveData;
+    }
+
+    public void save(Office office) {
+        officeApi.save(office).enqueue(new Callback<Message>() {
+            @Override
+            public void onResponse(Call<Message> call, Response<Message> response) {
+
+            }
+
+            @Override
+            public void onFailure(Call<Message> call, Throwable t) {
+
+            }
+        });
+    }
+
+    public void delete(Long id) {
+        officeApi.delete(id).enqueue(new Callback<Message>() {
+            @Override
+            public void onResponse(Call<Message> call, Response<Message> response) {
+
+            }
+
+            @Override
+            public void onFailure(Call<Message> call, Throwable t) {
+
+            }
+        });
     }
 }

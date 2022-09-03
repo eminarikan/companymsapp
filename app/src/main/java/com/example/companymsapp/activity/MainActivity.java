@@ -58,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.productItem:
-                Toast.makeText(getApplicationContext(),"Item 3 Selected",Toast.LENGTH_LONG).show();
+                Intent productIntent = new Intent(this, ProductActivity.class);
+                startActivity(productIntent);
             case R.id.orderItem:
                 Toast.makeText(getApplicationContext(),"Item 3 Selected",Toast.LENGTH_LONG).show();
             case R.id.orderDetailItem:

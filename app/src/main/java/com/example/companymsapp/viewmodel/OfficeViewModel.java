@@ -14,32 +14,27 @@ public class OfficeViewModel extends ViewModel {
     // LiveData MutableLiveData
     private MutableLiveData<List<Office>> offices;
     private MutableLiveData<Office> selectedOffice = new MutableLiveData<>();
-    private MutableLiveData<Boolean> isLoading = new MutableLiveData<>();
 
     private OfficeRepository officeRepository = OfficeRepository.getInstance();
 
     public  OfficeViewModel(){
         super();
-        isLoading.setValue(true);
         offices = officeRepository.getAll();
     }
 
-    @Override
-    protected void onCleared() {
-        super.onCleared();
-    }
-
-    public MutableLiveData<Office> getSelectedOffice() {
-        return selectedOffice;
-    }
-
-    public MutableLiveData<Boolean> getIsLoading() {
-        return isLoading;
+    public MutableLiveData<Office> getSelectedOffice(Long officeCode) {
+        return officeRepository.getById(officeCode);
     }
 
     public MutableLiveData<List<Office>> getOffices(){
-        return offices;
+        return officeRepository.getAll();
     }
 
+    public void createOffice(Office office){
+        officeRepository.save(office);
+    }
 
+    public void deleteOffice(Long id){
+        officeRepository.delete(id);
+    }
 }
