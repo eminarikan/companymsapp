@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.productItem:
                 Intent productIntent = new Intent(this, ProductActivity.class);
                 startActivity(productIntent);
+                break;
             case R.id.orderItem:
                 Toast.makeText(getApplicationContext(),"Item 3 Selected",Toast.LENGTH_LONG).show();
             case R.id.orderDetailItem:
@@ -67,7 +68,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.paymentItem:
                 Toast.makeText(getApplicationContext(),"Item 3 Selected",Toast.LENGTH_LONG).show();
             case R.id.productLineItem:
-                Toast.makeText(getApplicationContext(),"Item 3 Selected",Toast.LENGTH_LONG).show();
+                Intent productLineIntent = new Intent(this, ProductLineActivity.class);
+                startActivity(productLineIntent);
                 return true;
             default:
         }

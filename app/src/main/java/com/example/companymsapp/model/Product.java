@@ -11,6 +11,29 @@ public class Product {
     private double buyPrice;
     private double msrp;
 
+    public Product() {
+    }
+
+    public Product(String productCode,
+                   String productName,
+                   String productLine,
+                   String productScale,
+                   String productVendor,
+                   String productDescription,
+                   int quantityInStock,
+                   double buyPrice,
+                   double msrp) {
+        this.productCode = productCode;
+        this.productName = productName;
+        this.productLine = productLine;
+        this.productScale = productScale;
+        this.productVendor = productVendor;
+        this.productDescription = productDescription;
+        this.quantityInStock = quantityInStock;
+        this.buyPrice = buyPrice;
+        this.msrp = msrp;
+    }
+
     public String getProductCode() {
         return productCode;
     }

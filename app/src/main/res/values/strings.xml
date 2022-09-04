@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">companyms app</string>
-    <string name="companyms">CompanyMS</string>
+    <string name="companyms">CompanyMSApp</string>
     <string name="offices">Offices</string>
     <string name="employees">Employees</string>
     <string name="products">Products</string>
@@ -37,4 +37,17 @@
     <string name="update">Update</string>
     <string name="delete">Delete</string>
     <string name="office_details">Office Details</string>
+    <string name="create_product">Create Product</string>
+    <string name="product_code">Product Code</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_line">Product Line</string>
+    <string name="product_scale">Product Scale</string>
+    <string name="product_vendor">Product Vendor</string>
+    <string name="product_description">Product Description</string>
+    <string name="quantity_in_stock">Quantity In Stock</string>
+    <string name="buy_price">Buy Price</string>
+    <string name="msrp">msrp</string>
+    <string name="image">Image</string>
+    <string name="html_description">Html Description</string>
+    <string name="text_description">Text Description</string>
 </resources>

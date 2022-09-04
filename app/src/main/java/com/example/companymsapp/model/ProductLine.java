@@ -6,6 +6,13 @@ public class ProductLine {
     private String htmlDescription;
     private String image;
 
+    public ProductLine(String productLine, String textDescription, String htmlDescription, String image) {
+        this.productLine = productLine;
+        this.textDescription = textDescription;
+        this.htmlDescription = htmlDescription;
+        this.image = image;
+    }
+
     public String getProductLine() {
         return productLine;
     }

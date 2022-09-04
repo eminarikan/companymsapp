@@ -5,14 +5,20 @@
       <map>
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/drawable/btn_bacground.xml" value="0.2135" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_create_office.xml" value="0.4" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_create_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_create_product_line.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_office.xml" value="0.264" />
-        <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_office_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_office_detail.xml" value="0.1" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_product.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_product_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_product_line.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/activity_product_line_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/content_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/fragment_office_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/office_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/product_line_row.xml" value="0.536" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/layout/product_row.xml" value="0.253125" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/companymsapp/app/src/main/res/menu/drawer.xml" value="0.25416666666666665" />
       </map>

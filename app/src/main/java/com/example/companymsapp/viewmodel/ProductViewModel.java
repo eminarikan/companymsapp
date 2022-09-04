@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ProductViewModel extends ViewModel {
     private MutableLiveData<List<Product>> products;
-    private MutableLiveData<Office> selectedProduct = new MutableLiveData<>();
+    private MutableLiveData<Product> selectedProduct = new MutableLiveData<>();
 
     private ProductRepository productRepository = ProductRepository.getInstance();
 
